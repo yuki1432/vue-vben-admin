@@ -12,5 +12,32 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "mail": {
+    "title": "Mail",
+    "send": {
+      "title": "Send"
+    },
+    "manage": {
+      "title": "Manage"
+    }
+  },
+  "announcement": {
+    "title": "Announcement",
+    "send": {
+      "title": "Send"
+    },
+    "manage": {
+      "title": "Manage"
+    }
+  },
+  "gm": {
+    "title": "GM",
+    "online_players": {
+      "title": "Online Players"
+    },
+    "players": {
+      "title": "All Players"
+    }
   }
 }

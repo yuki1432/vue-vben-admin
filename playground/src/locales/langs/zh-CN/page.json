@@ -12,5 +12,32 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "mail": {
+    "title": "邮件",
+    "send": {
+      "title": "发送邮件"
+    },
+    "manage": {
+      "title": "管理邮件"
+    }
+  },
+  "announcement": {
+    "title": "公告",
+    "send": {
+      "title": "发送公告"
+    },
+    "manage": {
+      "title": "管理公告"
+    }
+  },
+  "gm": {
+    "title": "GM",
+    "online_players": {
+      "title": "在线玩家"
+    },
+    "players": {
+      "title": "所有玩家"
+    }
   }
 }

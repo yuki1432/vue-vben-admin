@@ -10,5 +10,14 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "email": {
+    "title": "邮件"
+  },
+  "annouce": {
+    "title": "公告"
+  },
+  "gamemaster": {
+    "title": "GM"
   }
 }
