@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [
       {
         name: 'Send',
         path: '/mail/send',
-        component: () => import('#/views/dashboard/analytics/index.vue'),
+        component: () => import('#/views/mail/send.vue'),
         meta: {
           affixTab: true,
           icon: 'grommet-icons:send',
@@ -25,7 +25,7 @@ const routes: RouteRecordRaw[] = [
       {
         name: 'Manage',
         path: '/mail/manage',
-        component: () => import('#/views/dashboard/workspace/index.vue'),
+        component: () => import('#/views/mail/manage.vue'),
         meta: {
           icon: 'eos-icons:cluster-management-outlined',
           title: $t('page.mail.manage.title'),

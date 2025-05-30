@@ -37,12 +37,14 @@ const gridOptions: VxeGridProps<RowType> = {
   proxyConfig: {
     ajax: {
       query: async ({ page, sort }) => {
-        return await getExampleTableApi({
+        const data = await getExampleTableApi({
           page: page.currentPage,
           pageSize: page.pageSize,
           sortBy: sort.field,
           sortOrder: sort.order,
         });
+        // console.error(data);
+        return data;
       },
     },
     sort: true,
